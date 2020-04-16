@@ -83,9 +83,7 @@ p{
     font-size: 20px;
 }
 
-input[type='radio']{
-    display: none;
-}
+
 
 .question-header{
     text-align: center;
@@ -126,17 +124,6 @@ display: none;
     font-weight: 700;
 }
 
-#result1{
-    display: none;
-}
-
-#result2{
-    display: none;
-}
-
-#result3{
-    display: none;
-}
 .submit{
     display: flex;
     justify-content: center;
@@ -160,4 +147,14 @@ display: none;
     box-shadow: none;
 }
 
-/* overlay on header background for mobile? */
+.display{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+input[type='radio']{
+    display: none;
+}
