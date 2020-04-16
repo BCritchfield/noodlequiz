@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <p>Do you have what it takes to go to space?</p>
+    </div>
+    <div class="full-question"> 
+        <div class="question-header">
+            <p>Are you planning on pursuing a master's degree in a STEM field?</p>
+        </div>
+        <div class="answers">
+
+            <div class="answer-div">
+                <label>
+                    <p>Yes</p>
+                    <input type="radio" value="0" name="q1"/>
+                </label>
+            </div>
+            <div class="answer-div">
+                <label>
+                    <p>Maybe</p>
+                    <input type="radio" value="2" name="q1"/>
+                </label>
+            </div>
+            <div class="answer-div">
+                <label>
+                    <p>No</p>
+                    <input type="radio" value="1" name="q1"/>
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="full-question"> 
+        <div class="question-header">
+            <p>What is your favorite spaceship?</p>
+        </div>
+        <div class="answers">
+            <div class="answer-div">
+                <label>
+                    <img src="./ss1.jpg">
+                    <input type="radio" value="0" name="q1"/>
+                </label>
+            </div>
+            <div class="answer-div">
+                <label>
+                    <img src="./ss2.jpg">
+                    <input type="radio" value="0" name="q1"/>
+                </label>
+            </div>
+            <div class="answer-div">
+                <label>
+                    <img src="./ss3.jpg">
+                    <input type="radio" value="2" name="q1"/>
+                </label>
+            </div>
+            <div class="answer-div">
+                <label>
+                    <img src="./ss4.png">
+                    <input type="radio" value="2" name="q1"/>
+                </label>
+            </div>
+            <div class="answer-div">
+                <label>
+                    <img src="./ss5.png">
+                    <input type="radio" value="1" name="q1"/>
+                </label>
+            </div>
+            <div class="answer-div">
+                <label>
+                    <img src="./ss6.jpg">
+                    <input type="radio" value="1" name="q1"/>
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="full-question"> 
+        <div class="question-header">
+            <p>It's Saturday night! What are you up to?</p>
+        </div>
+        <div class="answers">
+            <div class="answer-div">
+                <label>
+                    <p>Pong with the boys</p>
+                    <input type="radio" value="2" name="q1"/>
+                </label>
+            </div>
+            <div class="answer-div">
+                <label>
+                    <p>Watching netflix and playing board games at home</p>
+                    <input type="radio" value="2" name="q1"/>
+                </label>
+            </div>
+            <div class="answer-div">
+                <label>
+                    <p>Studying Math and Physics</p>
+                    <input type="radio" value="0" name="q1"/>
+                </label>
+            </div>
+            <div class="answer-div">
+                <label>
+                    <p>Grabbing drinks at Molly's</p>
+                    <input type="radio" value="1" name="q1"/>
+                </label>
+            </div>
+            <div class="answer-div">
+                <label>
+                    <p>Sleeping in my bed</p>  
+                    <input type="radio" value="1" name="q1"/>
+                </label>
+            </div>
+            <div class="answer-div">
+                <label>
+                    <p>Stargazing</p>
+                    <input type="radio" value="0" name="q1"/>
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="submit" id="submit-button">
+        <p>Submit</p>
+    </div>
+
+    <div class="result" >
+        <div class="result-text" id="result1">
+            <p id="result">Your result: Yes! You have what it takes!</p>
+            <p>
+                You are definitely going to become an astronaut. 
+                You are commited to your studies and have the right outlook when it comes to space. 
+                Congrats!
+            </p>
+            <img src="success.jpg" />
+        </div> 
+        
+        <div class="result-text" id="result2">
+            <p id="result">Your result: No, you don't have what it takes</p>
+            <p>
+                Sorry, you just are not cut out for space. 
+                You are better off pursuing other hobbies.
+            </p>
+            <img src="sad.jfif">
+        </div>
+
+        <div class="result-text" id="result3">
+            <p id="result">Your result: You might have what it takes</p>
+            <p>
+                With a little more study of the stars and a greater appreciation for space you might have what it takes.
+                Try watching some documentaries or rethinking your class choices.
+            </p>
+            <img src="maybe.jpg" />
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
