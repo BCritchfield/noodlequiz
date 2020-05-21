@@ -1,13 +1,18 @@
 $('#submit-button').on('click', function (e) {
   // gather all checked radio-button values
+
+
   var choices = $("input[type='radio']:checked").map(function (i, radio) {
-    return parseInt($(radio).val(), 10);
+    return parseInt($(radio).val());
   }).toArray();
+
 
   let result = choices.reduce(function (a, b) {
     return a + b;
   }, 0);
 
+  console.log("RESULT");
+  console.log(result);
   if (result > 25) {
     $('#result4').addClass('display');
     $('#result2').addClass('hide');
@@ -31,10 +36,10 @@ $('#submit-button').on('click', function (e) {
   }
 
   else {
-    $('#result4').addClass('display');
+    $('#result4').addClass('hide');
     $('#result2').addClass('hide');
     $('#result3').addClass('hide');
-    $('#result1').addClass('hide');
+    $('#result1').addClass('display');
 
   }
 
