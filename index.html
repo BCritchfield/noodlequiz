@@ -1,165 +1,426 @@
 <!DOCTYPE html>
+
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
 </head>
 
 <body>
-    <div class="header">
-        <p>Do you have what it takes to go to space?</p>
+  <div class="header">
+    <p>Which of the noodle groupies are you?</p>
+  </div>
+  <div class="full-question">
+    <div class="question-header">
+      <p>Where are you from? </p>
     </div>
-    <div class="full-question"> 
-        <div class="question-header">
-            <p>Are you planning on pursuing a master's degree in a STEM field?</p>
-        </div>
-        <div class="answers">
+    <div class="answers">
 
-            <div class="answer-div">
-                <label>
-                    <p>Yes</p>
-                    <input type="radio" value="0" name="q1"/>
-                </label>
-            </div>
-            <div class="answer-div">
-                <label>
-                    <p>Maybe</p>
-                    <input type="radio" value="2" name="q1"/>
-                </label>
-            </div>
-            <div class="answer-div">
-                <label>
-                    <p>No</p>
-                    <input type="radio" value="1" name="q1"/>
-                </label>
-            </div>
-        </div>
+      <div class="answer-div">
+        <label>
+          <p>East Coast</p>
+          <input type="radio" value="0" name="q1" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Somewhere in the deset</p>
+          <input type="radio" value="1" name="q1" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Midwest coast, best coast</p>
+          <input type="radio" value="2" name="q1" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>West Coast babyyy</p>
+          <input type="radio" value="3" name="q1" />
+        </label>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="full-question">
+    <div class="question-header">
+      <p>Signature Catchphrase</p>
+    </div>
+    <div class="answers">
+      <div class="answer-div">
+        <label>
+          <p>"Oof"</p>
+          <input type="radio" value="0" name="q2" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>"Take a shot with me"</p>
+          <input type="radio" value="1" name="q2" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Copycatting whatever Emma Demers is saying</p>
+          <input type="radio" value="2" name="q2" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>"Tighten Up"</p>
+          <input type="radio" value="3" name="q2" />
+        </label>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div class="full-question">
+    <div class="question-header">
+      <p>How would you rate your pong skillz?</p>
+    </div>
+    <div class="answers">
+      <div class="answer-div">
+        <label>
+          <p>Good for the most part, will only play strong side</p>
+          <input type="radio" value="0" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Better than 90% of the noodles</p>
+          <input type="radio" value="1" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Loses more than half of the time, but still will only play strong side</p>
+          <input type="radio" value="2" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>I still don't know the rules</p>
+          <input type="radio" value="3" name="q3" />
+        </label>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="full-question">
+    <div class="question-header">
+      <p>What's your major?</p>
+    </div>
+    <div class="answers">
+      <div class="answer-div">
+        <label>
+          <p>Humanities</p>
+          <input type="radio" value="0" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Computer Science</p>
+          <input type="radio" value="1" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Economics</p>
+          <input type="radio" value="2" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Neuroscience</p>
+          <input type="radio" value="3" name="q3" />
+        </label>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="full-question">
+    <div class="question-header">
+      <p>What are you adding to the basement queue?</p>
+    </div>
+    <div class="answers">
+      <div class="answer-div">
+        <label>
+          <p>Mamma Mia</p>
+          <input type="radio" value="0" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Pong Hype Playlist</p>
+          <input type="radio" value="1" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Honeymoon Avenue</p>
+          <input type="radio" value="2" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Ratchet Rap</p>
+          <input type="radio" value="3" name="q3" />
+        </label>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="full-question">
+    <div class="question-header">
+      <p>How many of the 7 have you done?</p>
+    </div>
+    <div class="answers">
+      <div class="answer-div">
+        <label>
+          <p>Someone asked me to do the stacks once after I pulled an all-nighter</p>
+          <input type="radio" value="0" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>One night covered in BEMA was enough for me</p>
+          <input type="radio" value="1" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>That was on the 20S bucket list, rip</p>
+          <input type="radio" value="2" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>I am celibate</p>
+          <input type="radio" value="3" name="q3" />
+        </label>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="full-question">
+    <div class="question-header">
+      <p>What is your secret talent?</p>
+    </div>
+    <div class="answers">
+      <div class="answer-div">
+        <label>
+          <p>Double jointed thumbs</p>
+          <input type="radio" value="0" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Batch mixing</p>
+          <input type="radio" value="1" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Falling asleep anywhere, anytime</p>
+          <input type="radio" value="2" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Crying on demand</p>
+          <input type="radio" value="3" name="q3" />
+        </label>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="full-question">
+    <div class="question-header">
+      <p>How is your love life?</p>
+    </div>
+    <div class="answers">
+      <div class="answer-div">
+        <label>
+          <p>Constantly deleting and redownloading Tinder because I’m starved for attention</p>
+          <input type="radio" value="0" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Dating a noodle</p>
+          <input type="radio" value="1" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>dated 12 people but then got married to someone else and now has 2 kids… oh u mean irl?</p>
+          <input type="radio" value="2" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Loosey goosey</p>
+          <input type="radio" value="3" name="q3" />
+        </label>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="full-question">
+    <div class="question-header">
+      <p>It's BID NITE!!! What are you doing?</p>
+    </div>
+    <div class="answers">
+      <div class="answer-div">
+        <label>
+          <p>Hyping the crowd up</p>
+          <input type="radio" value="0" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Making batch and leading the train</p>
+          <input type="radio" value="1" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Whipping out plastic bags to catch boot</p>
+          <input type="radio" value="2" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Yelling "I wanna makeout with somebody"</p>
+          <input type="radio" value="3" name="q3" />
+        </label>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="full-question">
+    <div class="question-header">
+      <p>Doomsday, Tik Tok Tails, or Pop Punk?</p>
+    </div>
+    <div class="answers">
+      <div class="answer-div">
+        <label>
+          <p>Pop punk, no question</p>
+          <input type="radio" value="0" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Doomsday</p>
+          <input type="radio" value="1" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Pop Punk but pretails only #swug</p>
+          <input type="radio" value="2" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Champagne or GDXmas</p>
+          <input type="radio" value="3" name="q3" />
+        </label>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="full-question">
+    <div class="question-header">
+      <p>Pick your favorite noodle.</p>
+    </div>
+    <div class="answers">
+      <div class="answer-div">
+        <label>
+          <p>Capellini</p>
+          <input type="radio" value="0" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Classic penne</p>
+          <input type="radio" value="1" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Udon</p>
+          <input type="radio" value="2" name="q3" />
+        </label>
+      </div>
+      <div class="answer-div">
+        <label>
+          <p>Farfalle</p>
+          <input type="radio" value="3" name="q3" />
+        </label>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div class="submit" id="submit-button">
+    <p>Submit</p>
+  </div>
+
+  <div class="result">
+    <div class="result-text" id="result1">
+      <p id="result">Your result: Emma</p>
+      <p>Image of Emma here</p>
+      <p>
+        Emma text here
+      </p>
+      <img src="success.jpg" />
     </div>
 
-
-    <div class="full-question"> 
-        <div class="question-header">
-            <p>What is your favorite spaceship?</p>
-        </div>
-        <div class="answers">
-            <div class="answer-div">
-                <label>
-                    <img src="./ss1.jpg">
-                    <input type="radio" value="0" name="q2"/>
-                </label>
-            </div>
-            <div class="answer-div">
-                <label>
-                    <img src="./ss2.jpg">
-                    <input type="radio" value="0" name="q2"/>
-                </label>
-            </div>
-            <div class="answer-div">
-                <label>
-                    <img src="./ss3.jpg">
-                    <input type="radio" value="2" name="q2"/>
-                </label>
-            </div>
-            <div class="answer-div">
-                <label>
-                    <img src="./ss4.png">
-                    <input type="radio" value="2" name="q2"/>
-                </label>
-            </div>
-            <div class="answer-div">
-                <label>
-                    <img src="./ss5.png">
-                    <input type="radio" value="1" name="q2"/>
-                </label>
-            </div>
-            <div class="answer-div">
-                <label>
-                    <img src="./ss6.jpg">
-                    <input type="radio" value="1" name="q2"/>
-                </label>
-            </div>
-        </div>
+    <div class="result-text" id="result2">
+      <p id="result">Your result: Brittany</p>
+      <p>Image of Brittany here</p>
+      <p>
+        You got Brittany! You are always down to rage, and are probably still looking for that megaphone you lost in Sig
+        Nu.
+      </p>
+      <img src="sad.jfif">
     </div>
 
-
-    
-    <div class="full-question"> 
-        <div class="question-header">
-            <p>It's Saturday night! What are you up to?</p>
-        </div>
-        <div class="answers">
-            <div class="answer-div">
-                <label>
-                    <p>Pong with the boys</p>
-                    <input type="radio" value="2" name="q3"/>
-                </label>
-            </div>
-            <div class="answer-div">
-                <label>
-                    <p>Watching netflix and playing board games at home</p>
-                    <input type="radio" value="2" name="q3"/>
-                </label>
-            </div>
-            <div class="answer-div">
-                <label>
-                    <p>Studying Math and Physics</p>
-                    <input type="radio" value="0" name="q3"/>
-                </label>
-            </div>
-            <div class="answer-div">
-                <label>
-                    <p>Grabbing drinks at Molly's</p>
-                    <input type="radio" value="1" name="q3"/>
-                </label>
-            </div>
-            <div class="answer-div">
-                <label>
-                    <p>Sleeping in my bed</p>  
-                    <input type="radio" value="1" name="q3"/>
-                </label>
-            </div>
-            <div class="answer-div">
-                <label>
-                    <p>Stargazing</p>
-                    <input type="radio" value="0" name="q3"/>
-                </label>
-            </div>
-        </div>
+    <div class="result-text" id="result3">
+      <p id="result">Your result: Tiff</p>
+      <p>Image of tiff here</p>
+      <p>
+        Tiff text here
+      </p>
+      <img src="maybe.jpg" />
     </div>
 
-
-    <div class="submit" id="submit-button">
-        <p>Submit</p>
+    <div class="result-text" id="result4">
+      <p id="result">Your result: Klara</p>
+      <p>Image of klara here</p>
+      <p>
+        Klara text here
+      </p>
+      <img src="maybe.jpg" />
     </div>
-
-    <div class="result" >
-        <div class="result-text" id="result1">
-            <p id="result">Your result: Yes! You have what it takes!</p>
-            <p>
-                You are definitely going to become an astronaut. 
-                You are commited to your studies and have the right outlook when it comes to space. 
-                Congrats!
-            </p>
-            <img src="success.jpg" />
-        </div> 
-        
-        <div class="result-text" id="result2">
-            <p id="result">Your result: No, you don't have what it takes</p>
-            <p>
-                Sorry, you just are not cut out for space. 
-                You are better off pursuing other hobbies.
-            </p>
-            <img src="sad.jfif">
-        </div>
-
-        <div class="result-text" id="result3">
-            <p id="result">Your result: You might have what it takes</p>
-            <p>
-                With a little more study of the stars and a greater appreciation for space you might have what it takes.
-                Try watching some documentaries or rethinking your class choices.
-            </p>
-            <img src="maybe.jpg" />
-        </div>
-    </div>
-    <script src="main.js"></script>
+  </div>
+  <script src="main.js"></script>
 </body>
